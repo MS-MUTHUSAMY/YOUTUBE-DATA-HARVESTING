@@ -15,7 +15,7 @@ pg_connection = mysql.connector.connect(
                                 )
 pg_cursor = pg_connection.cursor()
 
-mongo_client = MongoClient(f"mongodb+srv://ms_mgr_007:<password>@cluster0.dpdtdjk.mongodb.net/?retryWrites=true&w=majority")
+mongo_client = MongoClient(f"mongodb+srv://<User name>:<password>@cluster0.dpdtdjk.mongodb.net/?retryWrites=true&w=majority")
 db = mongo_client['app_data']
 collection1 = db['channel_details']
 collection2 = db['video_details']
