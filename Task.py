@@ -15,13 +15,13 @@ pg_connection = mysql.connector.connect(
                                 )
 pg_cursor = pg_connection.cursor()
 
-mongo_client = MongoClient(f"mongodb+srv://ms_mgr_007:muthu007@cluster0.dpdtdjk.mongodb.net/?retryWrites=true&w=majority")
+mongo_client = MongoClient(f"mongodb+srv://ms_mgr_007:<password>@cluster0.dpdtdjk.mongodb.net/?retryWrites=true&w=majority")
 db = mongo_client['app_data']
 collection1 = db['channel_details']
 collection2 = db['video_details']
 collection3 = db['comments_details']
 
-api_key = 'AIzaSyB-6MZUNT7w2MgW7Aj6YfB3duBAXInRGQE'
+api_key = 'Enter API Key'
 youtube = build("youtube", "v3", developerKey=api_key)
 
 
