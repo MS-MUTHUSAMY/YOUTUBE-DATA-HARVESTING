@@ -60,7 +60,8 @@ Select a channel name from the dropdown Channel Details and click on Push to SQL
 Once imported, you can select the Analysis and Reports Page from the drop down to get a detailed analysis of the collected data.
 
 
-**links:**
+***links:***
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 linkedIn : https://www.linkedin.com/in/ms-mgr-agri/
 
