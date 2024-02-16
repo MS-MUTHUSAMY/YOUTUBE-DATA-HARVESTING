@@ -8,33 +8,59 @@ This project is a YouTube API scrapper that allows users to retrieve and analyze
 
 The YouTube Data Scraper offers a range of features to help you extract and analyze data from YouTube. Some of the key features include:
 
-**Retrieve channel statistics:** Get detailed information about YouTube channels, including subscriber count, view count, video count, and other relevant metrics.
+**Retrieve channel statistics:**
 
-**Fetch video details:** Extract data such as video title, description, duration, view count, like count, dislike count, and publish date for individual videos.
+Get detailed information about YouTube channels, including subscriber count, view count, video count, and other relevant metrics.
 
-**Analyze comments:** Retrieve comments made on YouTube videos and perform analysis, such as sentiment analysis or comment sentiment distribution.
+**Fetch video details:**
 
-**Generate reports:** Generate reports and visualizations based on the collected data, allowing users to gain insights into channel performance, video engagement, and audience interaction.
+Extract data such as video title, description, duration, view count, like count, dislike count, and publish date for individual videos.
 
-**Data storage:** Store the collected YouTube data in a database for easy retrieval and future reference.
+**Analyze comments:** 
+
+Retrieve comments made on YouTube videos and perform analysis, such as sentiment analysis or comment sentiment distribution.
+
+**Generate reports:**
+
+Generate reports and visualizations based on the collected data, allowing users to gain insights into channel performance, video engagement, and audience interaction.
+
+**Data storage:**
+
+Store the collected YouTube data in a database for easy retrieval and future reference.
 
 # Technologies Used
 
-**Python:** The project is implemented using the Python programming language.
+**Python:** 
 
-**YouTube Data API:** Utilizes the official YouTube Data API to interact with YouTube's platform and retrieve data.
+The project is implemented using the Python programming language.
 
-**Streamlit:** The user interface and visualization are created using the Streamlit framework, providing a seamless and interactive experience.
+**YouTube Data API:** 
 
-**MongoDB:** The collected data can be stored in a MongoDB database for efficient data management and querying.
+Utilizes the official YouTube Data API to interact with YouTube's platform and retrieve data.
 
-**PostgreSQL:** A powerful open-source relational database management system used to store and manage the retrieved data.
+**Streamlit:** 
 
-**PyMongo:** A Python library that enables interaction with MongoDB, a NoSQL database. It is used for storing and retrieving data from MongoDB in the YouTube Data Scraper.
+The user interface and visualization are created using the Streamlit framework, providing a seamless and interactive experience.
 
-**Psycopg2:** A PostgreSQL adapter for Python that allows seamless integration between Python and PostgreSQL. It enables the YouTube Data Scraper to connect to and interact with the PostgreSQL database.
+**MongoDB:**
 
-**Pandas:** A powerful data manipulation and analysis library in Python. Pandas is used in the YouTube Data Scraper to handle and process data obtained from YouTube, providing functionalities such as data filtering, transformation, and aggregation.
+The collected data can be stored in a MongoDB database for efficient data management and querying.
+
+**PostgreSQL:** 
+
+A powerful open-source relational database management system used to store and manage the retrieved data.
+
+**PyMongo:**
+
+A Python library that enables interaction with MongoDB, a NoSQL database. It is used for storing and retrieving data from MongoDB in the YouTube Data Scraper.
+
+**Psycopg2:** 
+
+A PostgreSQL adapter for Python that allows seamless integration between Python and PostgreSQL. It enables the YouTube Data Scraper to connect to and interact with the PostgreSQL database.
+
+**Pandas:**
+
+A powerful data manipulation and analysis library in Python. Pandas is used in the YouTube Data Scraper to handle and process data obtained from YouTube, providing functionalities such as data filtering, transformation, and aggregation.
 
 
 ## Process Flow
