@@ -1,38 +1,44 @@
 # YoutubeData-Scraping
-# Introduction
+
+## Introduction
+
 This project is a YouTube API scrapper that allows users to retrieve and analyze data from YouTube channels. It utilizes the YouTube Data API to fetch information such as channel statistics, video details, comments, and more. The scrapper provides various functionalities to extract and process YouTube data for further analysis and insights.
-# Features
+
+## Features
+
 The YouTube Data Scraper offers a range of features to help you extract and analyze data from YouTube. Some of the key features include:
 
-Retrieve channel statistics: Get detailed information about YouTube channels, including subscriber count, view count, video count, and other relevant metrics.
+**Retrieve channel statistics:** Get detailed information about YouTube channels, including subscriber count, view count, video count, and other relevant metrics.
 
-Fetch video details: Extract data such as video title, description, duration, view count, like count, dislike count, and publish date for individual videos.
+**Fetch video details:** Extract data such as video title, description, duration, view count, like count, dislike count, and publish date for individual videos.
 
-Analyze comments: Retrieve comments made on YouTube videos and perform analysis, such as sentiment analysis or comment sentiment distribution.
+**Analyze comments:** Retrieve comments made on YouTube videos and perform analysis, such as sentiment analysis or comment sentiment distribution.
 
-Generate reports: Generate reports and visualizations based on the collected data, allowing users to gain insights into channel performance, video engagement, and audience interaction.
+**Generate reports:** Generate reports and visualizations based on the collected data, allowing users to gain insights into channel performance, video engagement, and audience interaction.
 
-Data storage: Store the collected YouTube data in a database for easy retrieval and future reference.
+**Data storage:** Store the collected YouTube data in a database for easy retrieval and future reference.
 
 # Technologies Used
-Python: The project is implemented using the Python programming language.
 
-YouTube Data API: Utilizes the official YouTube Data API to interact with YouTube's platform and retrieve data.
+**Python:** The project is implemented using the Python programming language.
 
-Streamlit: The user interface and visualization are created using the Streamlit framework, providing a seamless and interactive experience.
+**YouTube Data API:** Utilizes the official YouTube Data API to interact with YouTube's platform and retrieve data.
 
-MongoDB: The collected data can be stored in a MongoDB database for efficient data management and querying.
+**Streamlit:** The user interface and visualization are created using the Streamlit framework, providing a seamless and interactive experience.
 
-PostgreSQL: A powerful open-source relational database management system used to store and manage the retrieved data.
+**MongoDB:** The collected data can be stored in a MongoDB database for efficient data management and querying.
 
-PyMongo: A Python library that enables interaction with MongoDB, a NoSQL database. It is used for storing and retrieving data from MongoDB in the YouTube Data Scraper.
+**PostgreSQL:** A powerful open-source relational database management system used to store and manage the retrieved data.
 
-Psycopg2: A PostgreSQL adapter for Python that allows seamless integration between Python and PostgreSQL. It enables the YouTube Data Scraper to connect to and interact with the PostgreSQL database.
+**PyMongo:** A Python library that enables interaction with MongoDB, a NoSQL database. It is used for storing and retrieving data from MongoDB in the YouTube Data Scraper.
 
-Pandas: A powerful data manipulation and analysis library in Python. Pandas is used in the YouTube Data Scraper to handle and process data obtained from YouTube, providing functionalities such as data filtering, transformation, and aggregation.
+**Psycopg2:** A PostgreSQL adapter for Python that allows seamless integration between Python and PostgreSQL. It enables the YouTube Data Scraper to connect to and interact with the PostgreSQL database.
+
+**Pandas:** A powerful data manipulation and analysis library in Python. Pandas is used in the YouTube Data Scraper to handle and process data obtained from YouTube, providing functionalities such as data filtering, transformation, and aggregation.
 
 
-# Process Flow
+## Process Flow
+
 Obtain YouTube API credentials:
 Visit the Google Cloud Console.
 
@@ -42,7 +48,8 @@ Enable the YouTube Data API v3 for your project.
 
 Create API credentials for youtube API v3.
 
-# ETL Process
+## ETL Process
+
 Extracting Data from youtube API.
 
 Transforming data into required format.
@@ -60,7 +67,7 @@ Select a channel name from the dropdown Channel Details and click on Push to SQL
 Once imported, you can select the Analysis and Reports Page from the drop down to get a detailed analysis of the collected data.
 
 
-# Links
+## Links
 
 
 linkedIn : https://www.linkedin.com/in/ms-mgr-agri/
