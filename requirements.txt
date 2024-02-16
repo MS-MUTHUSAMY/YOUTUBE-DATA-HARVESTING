@@ -1,9 +1,7 @@
 streamlit
-googleapiclient
 pandas
 numpy
 seaborn
 pymongo
 datetime
 mysql.connector
-
