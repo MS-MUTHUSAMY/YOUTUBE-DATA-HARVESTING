@@ -65,32 +65,33 @@ A powerful data manipulation and analysis library in Python. Pandas is used in t
 
 ## Process Flow
 
-Obtain YouTube API credentials:
-Visit the Google Cloud Console.
+* Obtain YouTube API credentials.
 
-Create a new project or select an existing project.
+* Visit the Google Cloud Console.
 
-Enable the YouTube Data API v3 for your project.
+* Create a new project or select an existing project.
 
-Create API credentials for youtube API v3.
+* Enable the YouTube Data API v3 for your project.
+
+* Create API credentials for youtube API v3.
 
 ## ETL Process
 
-Extracting Data from youtube API.
+* Extracting Data from youtube API.
 
-Transforming data into required format.
+* Transforming data into required format.
 
-Loading Data into SQL
+* Loading Data into SQL
 
 
 
-Input the Channel Id and click on Get Channel Statistics in order to retrive data from Youtube API.
+* Input the Channel Id and click on Get Channel Statistics in order to retrive data from Youtube API.
 
-Next click on Push to MongoDB to store data in MongoDB Lake.
+* Next click on Push to MongoDB to store data in MongoDB Lake.
 
-Select a channel name from the dropdown Channel Details and click on Push to SQL to import data into PostgreSQL.
+* Select a channel name from the dropdown Channel Details and click on Push to SQL to import data into PostgreSQL.
 
-Once imported, you can select the Analysis and Reports Page from the drop down to get a detailed analysis of the collected data.
+* Once imported, you can select the Analysis and Reports Page from the drop down to get a detailed analysis of the collected data.
 
 
 ## Links
