@@ -1,0 +1,9 @@
+streamlit
+googleapiclient.discovery
+pandas
+numpy
+seaborn
+pymongo
+datetime
+mysql.connector
+googleapiclient.errors
